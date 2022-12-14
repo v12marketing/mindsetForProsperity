@@ -763,25 +763,7 @@ p {
     position: relative;
     overflow: hidden;
 }
-.get_in_touch_section:before {
-    background: var(--e-global-color-soft-orange);
-    content: "";
-    width: 50%;
-    height: 806px;
-    top: 0;
-    left: 0;
-    position: absolute;
-}
-.get_in_touch_section::after {
-    background: url(../images/get_in_touch_image.jpg);
-    content: "";
-    width: 50%;
-    height: 806px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-}
+
 .get_in_touch_content h5 {
     text-transform: uppercase;
     color: var(--e-global-color-secondary);
@@ -2231,4 +2213,31 @@ textarea {
 }
 .single-post .single-post-heading {
     font-size: 30px !important;
+}
+.quote_from_bible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 8rem 4rem;
+    max-width: 40rem;
+    margin: auto;
+}
+
+.quote_from_bible h3 {
+    font-size: 2.5rem;
+    font-style: italic;
+    color: white;
+    padding: 2rem;
+    line-height: 3rem;
+    border: 1px solid #ffffff;
+}
+
+@media screen and (min-width: 58rem) {
+    .services.get_in_touch_content {
+        max-width: 35rem;
+        margin-right: 0;
+        margin-left: auto;
+    }
 }
