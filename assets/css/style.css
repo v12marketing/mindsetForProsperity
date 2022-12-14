@@ -2256,3 +2256,15 @@ textarea {
     width: 100%;
     object-fit: cover;
 }
+
+.header-logo {
+    width: 10rem;
+}
+
+.hero-image {
+    width: 100%;
+    height: 45rem;
+    object-fit: cover;
+    border-top-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+}
