@@ -406,7 +406,7 @@ p {
 /* Home Page Our Services Section Style */
 
 .services_section {
-    padding: 120px 0 130px;
+    padding: 120px 0 60px;
     position: relative;
 }
 .services_section .services_content {
@@ -934,7 +934,7 @@ textarea {
     padding: 70px 60px 30px;
 }
 .second_lower_portion {
-    padding: 70px 69px 30px;
+    padding: 70px 48px 30px;
 }
 .third_lower_portion {
     padding: 70px 72px 30px;
@@ -942,7 +942,9 @@ textarea {
 .pricing_plans_box_lower_portion h3 {
     color: var(--e-global-color-primary);
     text-align: center;
-    margin-bottom: 0px;
+    line-height: 38px;
+
+    margin-bottom: 16px;
 }
 .pricing_plans_box_lower_portion ul {
     margin-bottom: 16px;
@@ -965,8 +967,8 @@ textarea {
 }
 .pricing_plans_box_lower_portion .pricing_plans_span_wrapper .price {
     font-family: "Playfair Display", serif;
-    font-size: 48px;
-    line-height: 55px;
+    font-size: 28px;
+    line-height: 40px;
     font-weight: 700;
     color: var(--e-global-color-secondary);
 }
@@ -1631,7 +1633,8 @@ textarea {
 /* About Page Our Mission Section Style */
 
 .mission_section {
-    padding: 130px 0 45px;
+    padding: 0 0 45px;
+    margin-top: 0;
     position: relative;
 }
 .mission_section .mission_box {
@@ -1641,7 +1644,7 @@ textarea {
     box-shadow: 1px 1px 50px rgb(0 0 0 / 7%);
 }
 .mission_content {
-    padding-top: 150px;
+    padding-block: 89px;
     padding-left: 96px;
 }
 .mission_content h5 {
@@ -2244,7 +2247,7 @@ textarea {
 
 @media screen and (min-width: 48rem) {
     .navbar-expand-lg .navbar-nav {
-        gap: 2rem;
+        gap: 1rem;
     }
     .navbar-nav .nav-item .contact_us {
         margin-left: 4rem;
@@ -2267,4 +2270,52 @@ textarea {
     object-fit: cover;
     border-top-left-radius: 10rem;
     border-bottom-right-radius: 10rem;
+}
+.weight-loss {
+    height: 15rem !important;
+}
+
+.weight-loss figure {
+    width: 15rem !important;
+    height: 15rem !important;
+    overflow: hidden;
+}
+.weight-loss img {
+    width: 15rem;
+    height: 15rem;
+    overflow: hidden;
+}
+
+.message_section .box.danger {
+    background-color: #e21b1b;
+    padding-right: 0;
+}
+.message_section .box.danger .box_wrapper {
+    width: 90% !important;
+}
+.message_section .box.danger h3 {
+    color: white;
+    line-height: 38px;
+    font-family: "karla", sans-serif;
+}
+
+.vision_image img,
+.mission_image img,
+.vision_image figure,
+.mission_image figure {
+    width: 100% !important;
+    height: 100%;
+    object-fit: cover;
+}
+.vision_image,
+.mission_image {
+    width: 100% !important;
+    height: 35rem;
+    overflow: hidden;
+}
+.vision_section .vision_box {
+    overflow: hidden;
+}
+.mission_section .mission_box {
+    overflow: hidden;
 }
