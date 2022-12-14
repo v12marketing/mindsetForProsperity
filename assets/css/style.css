@@ -522,7 +522,7 @@ p {
     left: -65px;
 }
 .aboutus_content {
-    padding-top: 145px;
+    padding-top: 65px;
     padding-left: 16px;
 }
 .aboutus_content h5 {
@@ -2240,4 +2240,19 @@ textarea {
         margin-right: 0;
         margin-left: auto;
     }
+}
+
+@media screen and (min-width: 48rem) {
+    .navbar-expand-lg .navbar-nav {
+        gap: 2rem;
+    }
+    .navbar-nav .nav-item .contact_us {
+        margin-left: 4rem;
+    }
+}
+
+.self-care {
+    height: 35rem;
+    width: 100%;
+    object-fit: cover;
 }
