@@ -16,7 +16,7 @@
     }
 
     .banner-section-outer .banner-section {
-        padding: 50px 85px 138px;
+        padding: 0 85px 68px;
     }
     h1 {
         font-size: 54px;
@@ -173,10 +173,10 @@
     }
 
     .banner-section-outer .banner-section {
-        padding: 90px 60px 100px;
+        padding: 0 60px 80px;
     }
     .banner-section-outer .banner-section .banner-section-content {
-        padding-top: 115px;
+        padding-top: 65px;
     }
     h5 {
         font-size: 18px;
@@ -1140,7 +1140,7 @@
     }
 
     .banner-section-outer .banner-section {
-        padding: 65px 30px 70px;
+        padding: 0 30px 70px;
     }
     .banner-section-outer .banner-section .banner-section-content {
         padding-top: 50px;

@@ -31,7 +31,7 @@ body {
     --e-global-color-text: #6b6b6b;
     --e-global-color-accent: #413625;
     --e-global-color-white: #ffffff;
-    --e-global-color-soft-orange: #fdb03c;
+    --e-global-color-soft-orange: #ff9901;
     --e-global-color-desaturated-magenta: #547780;
     --e-global-color-very-dark-desaturated-magenta: #547780;
     --e-global-color-mostly-desaturated-magenta: #8a648d;
@@ -93,7 +93,7 @@ p {
     background-position: center;
 }
 .main_header {
-    padding: 42px 292px 0;
+    padding: 42px 150px 0;
 }
 .navbar-collapse ul {
     text-align: center;
@@ -237,11 +237,11 @@ p {
 /* Home Page Banner Section Style */
 
 .banner-section-outer .banner-section {
-    padding: 50px 292px 138px;
+    padding: 0 150px 68px;
     position: relative;
 }
 .banner-section-outer .banner-section .banner-section-content {
-    padding-top: 168px;
+    padding-top: 68px;
 }
 .banner-section-outer .banner-section h5 {
     text-transform: uppercase;
@@ -431,20 +431,7 @@ p {
 .services_section .services_box_content {
     transition: all 0.3s ease-in-out;
 }
-.services_section .services_box_content .services_box_upper_portion {
-    margin-bottom: 10px;
-    width: 100%;
-    height: 25rem;
-    overflow: hidden;
-    /* animation: float_img 6s ease-in-out infinite; */
-}
-.services_section .services_box_content .services_box_upper_portion figure {
-    width: 100%;
-    height: 100%;
-    border-top-left-radius: 6rem;
-    border-bottom-right-radius: 6rem;
-    overflow: hidden;
-}
+
 .services_section .services_box_content .services_box_upper_portion img {
     width: 100%;
     height: 100%;
@@ -818,7 +805,8 @@ p {
 textarea {
     overflow: auto;
 }
-.get_in_touch_content button {
+.get_in_touch_content button,
+.services-btn {
     font-size: 22px;
     line-height: 22px;
     font-weight: 500;
@@ -834,17 +822,20 @@ textarea {
     overflow: hidden;
     position: relative;
 }
-.get_in_touch_content button:hover {
+.get_in_touch_content button:hover,
+.services-btn:hover {
     color: var(--e-global-color-secondary);
     background-color: var(--e-global-color-white);
     transform: translateY(-10px);
 }
-.get_in_touch_content button:hover:before {
+.get_in_touch_content button:hover:before,
+.services-btn:hover:before {
     left: 0%;
     right: auto;
     width: 100%;
 }
-.get_in_touch_content button:before {
+.get_in_touch_content button:before,
+.services-btn:before {
     display: block;
     position: absolute;
     top: 0px;
@@ -2266,7 +2257,7 @@ textarea {
 
 .hero-image {
     width: 100%;
-    height: 45rem;
+    max-height: 36rem;
     object-fit: cover;
     border-top-left-radius: 10rem;
     border-bottom-right-radius: 10rem;
@@ -2318,4 +2309,35 @@ textarea {
 }
 .mission_section .mission_box {
     overflow: hidden;
+}
+@media screen and (max-width: 24rem) {
+    .banner-section-content h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.about_image {
+    width: 100%;
+    height: 45rem;
+    object-fit: cover;
+}
+
+.mental-service {
+    width: 15rem;
+    height: 15rem;
+    margin-inline: auto;
+    padding: 2rem;
+    border-radius: 50%;
+    box-shadow: 5px 5px rgb(0 0 0 / 10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mental-service figure {
+    margin-bottom: 0;
+    margin: 0 0 0;
+}
+.text-orange {
+    color: var(--e-global-color-soft-orange);
 }
