@@ -164,7 +164,7 @@ p {
     background-color: transparent;
 }
 
-.navbar-nav .active>a {
+.navbar-nav .active > a {
     color: var(--e-global-color-soft-orange) !important;
 }
 
@@ -182,7 +182,7 @@ p {
     background-color: var(--e-global-color-soft-orange) !important;
 }
 
-.navbar-nav .drop-down-pages .active>a {
+.navbar-nav .drop-down-pages .active > a {
     color: var(--e-global-color-primary) !important;
     background-color: var(--e-global-color-soft-orange) !important;
 }
@@ -232,7 +232,7 @@ p {
     background-color: var(--e-global-color-white);
 }
 
-.navbar-nav .active>.contact_us {
+.navbar-nav .active > .contact_us {
     color: var(--e-global-color-primary) !important;
     background-color: var(--e-global-color-white);
 }
@@ -1040,7 +1040,10 @@ textarea {
     border-radius: 60px 0 60px 0;
 }
 
-.pricing_plans_box_content:hover .pricing_plans_box_upper_portion .pricing_plans_image img {
+.pricing_plans_box_content:hover
+    .pricing_plans_box_upper_portion
+    .pricing_plans_image
+    img {
     opacity: 0.8;
 }
 
@@ -1151,7 +1154,9 @@ textarea {
     transition: all 0.3s ease-in-out;
 }
 
-.pricing_plans_box_content:hover .pricing_plans_box_lower_portion .enroll_now_btn {
+.pricing_plans_box_content:hover
+    .pricing_plans_box_lower_portion
+    .enroll_now_btn {
     color: var(--e-global-color-white);
     background-color: var(--e-global-color-secondary);
     transform: translateY(-10px);
@@ -2694,4 +2699,59 @@ textarea {
 
 .text-orange {
     color: var(--e-global-color-soft-orange);
+}
+
+.text-blue {
+    color: var(--e-global-color-desaturated-magenta);
+}
+
+.max-w-title {
+    max-width: 55rem;
+    margin-inline: auto;
+}
+
+.get_started-default-btn {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 500;
+    padding: 24px 50px;
+    text-align: center;
+    color: var(--e-global-color-accent);
+    display: inline-block;
+    background-color: var(--e-global-color-mostly-desaturated-magenta);
+    border-radius: 35px 0px 35px 0px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.get_started-default-btn:hover {
+    color: var(--e-global-color-white);
+    background-color: var(--e-global-color-secondary);
+    transform: translateY(-10px);
+}
+
+.get_started-default-btn:hover:before {
+    left: 0%;
+    right: auto;
+    width: 100%;
+}
+
+.get_started-default-btn:before {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 0px;
+    z-index: -1;
+    content: "";
+    color: var(--e-global-color-white);
+    background-color: var(--e-global-color-secondary);
+    transition: all 0.4s cubic-bezier(0.12, 0, 0.38, 1) 0s;
+}
+
+.not-rounded {
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
 }
