@@ -865,6 +865,7 @@ p {
 }
 
 .our_specialties_section .specialties_image {
+    padding-top: 8rem;
     text-align: center;
     animation: float_img 6s ease-in-out infinite;
 }
@@ -2754,4 +2755,30 @@ textarea {
 .not-rounded {
     border-bottom-right-radius: 0;
     border-top-left-radius: 0;
+}
+
+.banner-section-outer .btn_wrapper .getstarted_btn.white-btn {
+    background-color: white;
+}
+.banner-section-outer .btn_wrapper .getstarted_btn.white-btn:hover {
+    color: white;
+}
+.banner-section-outer .btn_wrapper .getstarted_btn.white-btn:before {
+    background-color: #724065;
+}
+
+.get_started-default-btn.orange {
+    background-color: var(--e-global-color-soft-orange);
+}
+
+.get_started-default-btn.orange a {
+    color: var(--e-global-color-primary);
+}
+
+.get_started-default-btn:hover a {
+    color: var(--e-global-color-white);
+}
+
+.get_started-default-btn.orange:before {
+    background-color: var(--e-global-color-primary);
 }
