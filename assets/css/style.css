@@ -275,7 +275,7 @@ p {
 /* Home Page Banner Section Style */
 
 .banner-section-outer .banner-section {
-    padding: 0 150px 68px;
+    padding: 0 150px 10px;
     position: relative;
 }
 
@@ -475,7 +475,7 @@ p {
 /* Home Page Our Services Section Style */
 
 .services_section {
-    padding: 120px 0 60px;
+    padding: 100px 0 60px;
     position: relative;
 }
 
@@ -491,13 +491,13 @@ p {
 }
 
 .services_content h2 {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     padding: 0 120px;
     color: var(--e-global-color-primary);
 }
 
 .services_content p {
-    margin-bottom: 35px;
+    margin-bottom: 10px;
     padding: 0 110px;
     color: var(--e-global-color-text);
 }
@@ -573,7 +573,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 100px 0 130px;
+    padding: 90px 0 100px;
 }
 
 .aboutus_image {
@@ -679,7 +679,7 @@ p {
 /* Home Page Our Specialties Section Style */
 
 .our_specialties_section {
-    padding: 120px 0 108px;
+    padding: 100px 0 100px;
     position: relative;
 }
 
@@ -1008,7 +1008,7 @@ textarea {
 /* Home Page Pricing Plans Section Style */
 
 .pricing_plans_section {
-    padding: 140px 0 130px;
+    padding: 140px 0 108px;
 }
 
 .pricing_plans_content {
@@ -1701,7 +1701,7 @@ textarea {
 /* About Page About Us Section Style */
 
 .aboutpage_aboutus_section {
-    padding: 132px 0;
+    padding: 100px 0;
 }
 
 .aboutpage_aboutus_image {
@@ -1819,7 +1819,7 @@ textarea {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 120px 0 130px;
+    padding: 120px 0 110px;
 }
 
 .discount_content {
@@ -2056,7 +2056,7 @@ textarea {
 
 .achievement_section {
     background-color: var(--e-global-color-pale-blue);
-    padding: 122px 0 110px;
+    padding: 70px 0 110px;
 }
 
 .achievement_content {
@@ -2125,7 +2125,7 @@ textarea {
 /* Pricing Page Pricing Plans Section Style */
 
 .pricing_plans_section_padding {
-    padding: 120px 0 130px;
+    padding: 120px 0 20px;
 }
 
 /* Team Page Style */
@@ -2229,7 +2229,7 @@ textarea {
 /* Faq Page Faq's Section Style */
 
 .accordian-section {
-    padding: 120px 0 130px;
+    padding: 10px 0 110px;
 }
 
 .accordian_content {
@@ -2355,7 +2355,7 @@ textarea {
 /* Contact Page Message Section Style */
 
 .message_section {
-    padding: 120px 0 130px;
+    padding: 30px 0 130px;
     background-color: var(--e-global-color-pale-blue);
 }
 
