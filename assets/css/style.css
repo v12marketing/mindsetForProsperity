@@ -1,3 +1,25 @@
+/* ------------------------------------------------------------------
+[Master Stylesheet]
+
+Project: Yogastic
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2. Header
+3. Banner Section
+4. Our Services Section
+5. About Us Section
+6. Our Specialties Section
+7. Get In Touch Section
+8. What We Offer Section
+9. Testimonial Section
+10. Blog Posts Section
+11. Subscribe Now Section
+12. Footer Section
+*/
+
 @import url(https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;500;600&family=Playfair+Display:wght@400;700&display=swap);
 h2,
 h3 {
