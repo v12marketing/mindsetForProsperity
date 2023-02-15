@@ -49,6 +49,7 @@ h1 {
   line-height: 82px;
   font-weight: 700;
   color: var(--e-global-color-white);
+  font-display: swap;
 }
 
 h2 {
@@ -56,6 +57,7 @@ h2 {
   font-size: 48px;
   line-height: 55px;
   font-weight: 700;
+  font-display: swap;
 }
 
 h3 {
@@ -63,6 +65,7 @@ h3 {
   font-size: 22px;
   line-height: 55px;
   font-weight: 700;
+  font-display: swap;
 }
 
 h4 {
@@ -70,6 +73,7 @@ h4 {
   font-size: 22px;
   line-height: 30px;
   font-weight: 700;
+  font-display: swap;
 }
 
 h5 {
@@ -83,6 +87,7 @@ h6 {
   font-size: 20px;
   line-height: 28px;
   font-weight: 700;
+  font-display: swap;
 }
 
 p {
@@ -157,6 +162,7 @@ p {
   font-weight: 400;
   color: var(--e-global-color-white) !important;
   transition: all 0.3s ease-in-out;
+  font-display: swap;
 }
 
 .navbar-nav .nav-item a:hover {
