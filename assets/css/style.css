@@ -1895,7 +1895,7 @@ textarea {
 /* ---------------------------- CUSTOM STYLES ---------------------------- */
 .subtitle {
   text-transform: uppercase;
-  color: var(--e-global-color-desaturated-magenta);
+  color: var(--e-global-color-desaturated-magenta) !important;
   font-weight: 400;
   font-family: "Karla", sans-serif;
   letter-spacing: 3.1px;
@@ -1904,8 +1904,9 @@ textarea {
 }
 
 .learn__more {
-  color: var(--e-global-color-desaturated-magenta);
+  color: var(--e-global-color-desaturated-magenta) !important;
   font-family: "Playfair Display", serif;
+  font-weight: 700;
   font-size: 14px;
   margin-bottom: 15px;
 }
