@@ -40,7 +40,7 @@ if(isset($fname) && isset($lname) && isset($phone) && isset($emailHelp))
 }
 else
 {
-	echo $fname;
+	// echo $fname;
 	$status='error';
 	$output="please fill require fields";
 }
