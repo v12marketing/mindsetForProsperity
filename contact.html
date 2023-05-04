@@ -64,8 +64,10 @@
             </h2>
 
             <p class="state-label">Select a state:</p>
-            <button id="stateSelect" value="georgia" class="state-select" onclick="showEmbed()">Georgia</button>
-            <button id="stateSelect" value="alabama" class="state-select" onclick="showEmbed()">Alabama</button>
+            <button id="georgiaButton" value="georgia" class="state-select"
+              onclick="showEmbed('georgia')">Georgia</button>
+            <button id="alabamaButton" value="alabama" class="state-select"
+              onclick="showEmbed('alabama')">Alabama</button>
 
             <!-- <select id="stateSelect" class="state-select" onchange="showEmbed()">
               <option value="georgia">Georgia</option>
@@ -242,11 +244,10 @@
   <div data-include="footer"></div>
 
   <script>
-    function showEmbed() {
-      var stateSelect = document.getElementById("stateSelect");
+    function showEmbed(state) {
       var embedContainer = document.getElementById("embedContainer");
 
-      if (stateSelect.value === "georgia") {
+      if (state === "georgia") {
         embedContainer.innerHTML = ` <iframe
                 width="100%"
                 height="1000"
@@ -270,7 +271,7 @@
                 style="overflow: hidden"
                 frameborder="0"
               ></iframe>`;
-      } else if (stateSelect.value === "alabama") {
+      } else if (state === "alabama") {
         embedContainer.innerHTML = `<iframe 
           width="100%" 
           height="1000" 
