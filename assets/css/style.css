@@ -2337,3 +2337,27 @@ textarea {
   color: #333;
   text-align: center;
 }
+.hydration{
+  background-color: white;
+  border: 1px solid #eeeeee;
+  padding-top: 1rem;
+  padding-inline: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hydration h3 {
+  text-align: left;
+}
+
+.hydration p {
+ font-size: 1em;
+ line-height: 1.5em;
+}
+
+.hydration li {
+  color: #ff9901 !important;
+}
+
+.hydration li i{
+  color: #ff9901 !important;
+}
